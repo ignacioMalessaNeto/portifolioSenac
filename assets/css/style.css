@@ -1,0 +1,40 @@
+body{
+    background: rgb(140, 140, 134);
+}
+
+header{
+    height: 80px;
+    width: 100%;
+
+}
+
+.navbar{
+    padding: 0;
+
+}
+
+
+nav{
+    font-size: 25px;
+}
+
+.container-fluid{
+    background: rgb(115, 115, 121);
+}
+
+img {
+    width: 150px;
+    height: 80px;
+}
+
+.navbar-toggler{
+    background: white;
+}
+
+.hideOff{
+    display: none;
+}
+
+.sobreMim{
+    padding-top: 50px;
+}
