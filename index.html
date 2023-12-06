@@ -1,139 +1,222 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Currículo</title>
-  <script src="./assets/js/index.js"> </script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href=""><img
-            src="https://www.logomaker.com/api/main/images/1j+ojFVDOMkX9Wytexe43D6kh...CDpRVLkRvOwXs1M3EMoAJtlyAsjvJo9vQz "
-            class="max-width-100 logo" width="301" height="150"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="">Sobre-mim</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Contato</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="">Projetos</a>
-            </li>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portifólio</title>
+    <link rel="stylesheet" href="css/extends.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__content max-width mb-0">
+        <a href="/">
+          <img src="assets/logo.png" alt="Ignacio Malessa" />
+        </a>
+        <ul class="navbar__links">
+          <li><a href="#header">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#footer">Contato</a></li>
+        </ul>
+        <div class="navbar__mobile">
+          <img src="assets/menu.svg" alt="menu" class="burguer" />
+          <ul class="mobile__links">
+            <li><a href="#header">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#footer">Contato</a></li>
           </ul>
         </div>
       </div>
     </nav>
-  </header>
-  <main>
-    <section class="sobreMim hideOff">
-      <div class="about">
-      <h1>Apresentação</h1> 
 
-      <p>Olá me chamo ignacio, sou apaixonado por inovação e tecnologia, sou desenvolvedor full-stack, ja desenvolvi minha própria API com node.js, back-end também para um site de restaurante, filmes e notas, pra mais informações entre em projetos no <a href="">cabeçalho</a>, sou estudante de Análise e desenvolvimento de sistemas.</p>
-
-      <div>
-      <img class="minhaImg" src="./assets/images/eu.JPG" alt="">
+    <header id="header" class="max-width">
+      <div class="header__left">
+        <h1>Olá! Sou Ignacio  Desenvolvedor Fullstack</h1>
+        <p>
+          Desenvolvedor web full-stack com vasta experiência em desenvolvimento
+          de aplicações web escaláveis e responsivas. Sou apaixonado por criar
+          soluções tecnológicas que resolvem problemas reais e que agregam valor
+          aos usuários.
+        </p>
+        <a href="#about" class="btn btn-primary">Saiba Mais!</a>
       </div>
-
-      <h1>Educação:</h1>
-
-      <h2>Analise e desenvolvilmento de sistemas Unisinos - 3 semestre</h2>
-
-      <h2>Formado no programa full stack explorer da Rocketseat</h2>
-
-      <h2>Diversos mini cursos da alura</h2>
-
+      <div class="header__right">
+        <div class="header__image">
+          <img src="assets/eu.JPG" alt="Ignacio Malessa" class="ignacio" />
+          <img src="assets/abstract.svg" alt="background" class="background" />
+        </div>
       </div>
-    </section>
-    <section class="contato">
-      <div>
+    </header>
 
-      <h2>Contate-me</h2>
-
-      <video src="./assets/video/video.mp4" autoplay="true"></video>
-
-      <form>    
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Nome completo: </label>
-          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">E-mail</label>
-          <input type="e" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Aceito enviar meus dados</label>
-        </div>
-        <button type="submit" class="btn btn-secondary">Submit</button>
-      </form>
-    </div>
-
-    </section>
-    <section class="projetos hideOff">
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+    <section id="about" class="about max-width">
+      <div class="about__left">
+        <h2 class="secondary-title">Além do código... quem sou eu?</h2>
+        <p>
+          Que tal se conectar comigo nas redes sociais abaixo e saber mais sobre
+          meu trabalho?
+        </p>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/ignacio_malessa/"><img src="assets/instagram.svg" alt="Instagram" /></a>
+          </li>
+          <li>
+            <a href="www.linkedin.com/in/ignacio-malessa-neto-2a8142229"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+          </li>
+          <li>
+            <a href="https://github.com/ignacioMalessaNeto"><img src="assets/github.svg" alt="Git hub" /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="about__right">
+        <h3 class="tertiary-title mb-m">
+          Desenvolvedor fullstack apaixonado por tecnologia e soluções criativas
+        </h3>
+        <p>
+          Olá, eu sou Ignacio Malessa, um desenvolvedor fullstack apaixonado por
+          tecnologia e soluções criativas. Com mais de 3 anos de experiência em
+          desenvolvimento web, tenho trabalhado com diversas tecnologias e
+          plataformas para criar soluções robustas e escaláveis que atendam às
+          necessidades dos clientes.
+        </p>
+        <p>
+          Eu amo o desafio de encontrar soluções inovadoras e criativas para
+          problemas complexos e estou sempre buscando aprender e crescer como
+          profissional.
+        </p>
       </div>
     </section>
-  </main>
-</body>
 
+    <section id="skills" class="skills">
+      <div class="skills__content max-width">
+        <h2 class="tertiary-title">Minha caixinha de ferramentas</h2>
+        <p class="description">
+          Descubra as habilidades e ferramentas que domino e que me permitem
+          criar soluções criativas e funcionais para meus clientes.
+        </p>
+        <ul>
+          <li class="skills__item">
+            <div class="image-container">
+              <img src="assets/notebook.png" alt="Desenvolvimento Web" />
+            </div>
+            <h3>Desenvolvimento Web</h3>
+            <p>
+              Experiência em desenvolvimento fullstack com foco em tecnologias
+              modernas.
+            </p>
+          </li>
+          <li class="skills__item">
+            <div class="image-container">
+              <img src="assets/colors.png" alt="Web Design" />
+            </div>
+            <h3>Web Design</h3>
+            <p>
+              Habilidade em criar layouts modernos e responsivos, com foco na
+              experiência do usuário.
+            </p>
+          </li>
+          <li class="skills__item">
+            <div class="image-container">
+              <img src="assets/phone.png" alt="UX/UI Design" />
+            </div>
+            <h3>UX/UI Design</h3>
+            <p>
+              Conhecimentos em design de interface e experiência do usuário
+              visualmente atraentes e intuitivas.
+            </p>
+          </li>
+          <li class="skills__item">
+            <div class="image-container">
+              <img src="assets/files.png" alt="Gerenciamentos de versões" />
+            </div>
+            <h3>Gerenciamentos de versões</h3>
+            <p>
+              Experiência em ferramentas de gerenciamento de versão para
+              controle de projetos.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="projects max-width">
+      <div class="projects__content">
+        <h2 class="secondary-title">Projetos em Destaque</h2>
+        <p>
+          De ideias abstratas a projetos bem-sucedidos, aqui estão alguns dos
+          meus trabalhos mais recentes
+        </p>
+      </div>
+      <ul>
+        <li>
+          <div class="image">
+            <img src="assets/task-manager.png" alt="Gerenciamento de tarefas" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Sistema de criação de notas
+            </h3>
+            <p>
+              Sistema web desenvolvido para auxiliar as pessoas a criarem suas notas, com funcionalidades
+              como cadastro e atualização de usuários e criação, autalização e exclusão de notas.
+            </p>
+            <a href="https://github.com/ignacioMalessaNeto/rocketnotes">Leia mais &rarr;</a>
+          </div>
+        </li>
+        <li class="projects__reversed-list">
+          <div class="image">
+            <img src="assets/rocketfood.png" alt="imagem do site" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Desenvolvimento de um restaurante
+            </h3>
+            <p>
+              Site de restaurante desenvolvido do zero com tecnologias como React
+              e Node.js, com atribuição de função de cadastro de usuários e erarquia como adm e usuário, com criação, atualização e exclusão de pratos e busca.
+            </p>
+            <a href="https://github.com/ignacioMalessaNeto/rocketmovies">Leia mais &rarr;</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <footer id="footer">
+      <div class="footer__content max-width mb-0">
+        <h2 class="tertiary-title mb-s">Vamos conversar?</h2>
+        <p class="mb-m">
+          Ficarei feliz em falar mais sobre seus projetos e como podemos
+          trabalhar juntos para torná-los realidade.
+        </p>
+        <div class="footer__contact mb-m">
+          <span class="mb-m">projetosignacio@email.com</span>
+          <span>51 99931-4041</span>
+        </div>
+        <ul class="mb-1">
+          <li>
+            <a href="https://www.instagram.com/ignacio_malessa/"><img src="assets/instagram.svg" alt="Instagram" /></a>
+          </li>
+          <li>
+            <a href="www.linkedin.com/in/ignacio-malessa-neto-2a8142229"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+          </li>
+          <li>
+            <a href="https://github.com/ignacioMalessaNeto"><img src="assets/github.svg" alt="Git hub" /></a>
+          </li>
+        </ul>
+        <p class="footer__copyright">
+          © 2023 Ignacio Malessa. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+    <script src="scripts/index.js"></script>
+  </body>
 </html>
