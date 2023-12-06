@@ -1,5 +1,5 @@
 body{
-    background: rgb(140, 140, 134);
+    background: rgb(219, 219, 86);
 }
 
 header{
@@ -10,7 +10,6 @@ header{
 
 .navbar{
     padding: 0;
-
 }
 
 
@@ -22,7 +21,7 @@ nav{
     background: rgb(115, 115, 121);
 }
 
-img {
+.logo {
     width: 150px;
     height: 80px;
 }
@@ -35,6 +34,40 @@ img {
     display: none;
 }
 
-.sobreMim{
+section{
     padding-top: 50px;
+}
+
+
+.minhaImg {
+    width: 100%;
+    height: 100%;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.contato{
+    align-items: center;
+}
+
+.contato form{
+    background: black;
+    max-width: 500px;
+    width: 95%;
+    color: #FFFFFF;
+    height: 40vh;
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+video {
+    width: 600px;
 }
