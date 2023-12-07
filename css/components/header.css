@@ -11,11 +11,15 @@ header .header__left {
   flex: 1;
 }
 
+header .header__left h1 {
+  width: 500px;
+}
+
 header .header__left p {
   margin-top: 2rem;
   margin-bottom: 4rem;
   max-width: 50rem;
-}
+} 
 
 header .header__right .header__image {
   position: relative;
@@ -38,7 +42,7 @@ header .header__right .header__image::after {
 header .header__right .header__image .ignacio {
   border-radius: 0.5rem;
   min-width: 25%;
-  max-width: 80%;
+  max-width: 100%;
 }
 
 header .header__right .header__image .background {
