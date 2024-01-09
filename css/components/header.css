@@ -41,8 +41,7 @@ header .header__right .header__image::after {
 
 header .header__right .header__image .ignacio {
   border-radius: 0.5rem;
-  min-width: 25%;
-  max-width: 100%;
+  max-width: 50%;
 }
 
 header .header__right .header__image .background {
