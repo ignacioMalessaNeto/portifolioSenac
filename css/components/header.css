@@ -61,3 +61,15 @@ header .header__right .header__image .background {
     margin: 2rem auto 4rem;
   }
 }
+@media only screen and (max-width: 550px) {
+
+  header .header__left {
+    width: 200px;
+  }
+
+  header .header__left h1 {
+    width: 200px;
+    font-size: clamp(16px, 20px, 25px);
+  }
+
+}
